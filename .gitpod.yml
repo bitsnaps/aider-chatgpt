@@ -3,7 +3,10 @@ image:
 
 tasks:
   - init: pip install -e .
-    command:    aider -h
+    command: |
+          aider -h
+          ctags --version
+
 
 
 
