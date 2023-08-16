@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 
-RUN apt update && sudo apt install universal-ctags
+RUN sudo apt-get update && sudo apt-get install universal-ctags -yq
